@@ -75,7 +75,7 @@ Window& Window::get()
 
 void Window::run()
 {
-    setScene(RACING_SCENE);
+    setScene(TERRAIN_GEN_SCENE);
 
     double start(0), dt(0.0f);
     while (!glfwWindowShouldClose(get()._window))
