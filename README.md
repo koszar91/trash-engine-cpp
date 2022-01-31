@@ -15,12 +15,18 @@ Terrain Generation Scene contains a procedurally generated terrain. The geometry
 For movement the WASD, Space and Shift keys are used.
 It also contains simple GUI to modify the Perlin Noise parameters, which are dynamically recalculated and displayed when user changes it.
 
+[schema](https://github.com/koszar91/trash-engine-cpp/blob/master/screenshots/terrain1.png)
+[schema](https://github.com/koszar91/trash-engine-cpp/blob/master/screenshots/terrain2.png)
+
 Car Racing Scene is my attempt to implement car dynamics.
 User can steer the car using WASD and Space keys.
 I've done some physics research to figure out how to implement the car dynamics.
 Process ivolves some geometric computations with car tires to find steering forces acting on a car.
 Engine, braking and friction forces also influence the car movement.
 After all forces and torques are computed, the numerical integration (over time dt) is performed.
+
+[schema](https://github.com/koszar91/trash-engine-cpp/blob/master/screenshots/car1.png)
+[schema](https://github.com/koszar91/trash-engine-cpp/blob/master/screenshots/car2.png)
 
 # Further plans
 I'm going to rewrite the entire project to Java.
