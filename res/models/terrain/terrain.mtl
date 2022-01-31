@@ -1,0 +1,12 @@
+# Blender MTL File: 'terrain.blend'
+# Material Count: 1
+
+newmtl grass
+Ns 7.883143
+Ka 1.000000 1.000000 1.000000
+Kd 0.002768 0.303198 0.000000
+Ks 0.198718 0.198718 0.198718
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
