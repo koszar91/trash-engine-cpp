@@ -1,24 +1,26 @@
-# Trash-Engine
+## Trash-Engine
 My first attempt to build my own 3D engine for games using C++.
 I suspended developing this project, to rewrite it in Java
 
-# Tech
+## Tech
 Project is written in C++.
 It uses OpenGL for GPU communication. It also uses custom build GLSL shaders.
 Assimp library is used to dynamically load 3D models in obj format.
 GLFW is used for window creation and management and user interaction as well.
 
-# Scenes
+## Scenes
 I created two interactive scenes.
 
-Terrain Generation Scene contains a procedurally generated terrain. The geometry is computed using Perlin Noise algorithm.
+#Terrain Generation Scen
+contains a procedurally generated terrain. The geometry is computed using Perlin Noise algorithm.
 For movement the WASD, Space and Shift keys are used.
 It also contains simple GUI to modify the Perlin Noise parameters, which are dynamically recalculated and displayed when user changes it.
 
 ![Terrain 1 screen](https://github.com/koszar91/trash-engine-cpp/blob/master/screenshots/terrain1.png)
 ![Terrain 2 screen](https://github.com/koszar91/trash-engine-cpp/blob/master/screenshots/terrain2.png)
 
-Car Racing Scene is my attempt to implement car dynamics.
+#Car Racing Scene
+is my attempt to implement car dynamics.
 User can steer the car using WASD and Space keys.
 I've done some physics research to figure out how to implement the car dynamics.
 Process ivolves some geometric computations with car tires to find steering forces acting on a car.
@@ -28,7 +30,7 @@ After all forces and torques are computed, the numerical integration (over time 
 ![Car 1 screen](https://github.com/koszar91/trash-engine-cpp/blob/master/screenshots/car1.png)
 ![Car 2 screen](https://github.com/koszar91/trash-engine-cpp/blob/master/screenshots/car2.png)
 
-# Further plans
+## Further plans
 I'm going to rewrite the entire project to Java.
 When I'm done, I'm planning to learn and implement these features (and more):
 - full 3D collision system
@@ -39,5 +41,5 @@ When I'm done, I'm planning to learn and implement these features (and more):
 - ray tracing
 - basically everything i find interesting
 
-# Usage
+## Usage
 Project was entirely written in Visual Studio 2019, so for usage just download VS, build and run it (I hope).
