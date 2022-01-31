@@ -11,7 +11,7 @@ GLFW is used for window creation and management and user interaction as well.
 ## Scenes
 I created two interactive scenes.
 
-#Terrain Generation Scen
+# Terrain Generation Scene
 contains a procedurally generated terrain. The geometry is computed using Perlin Noise algorithm.
 For movement the WASD, Space and Shift keys are used.
 It also contains simple GUI to modify the Perlin Noise parameters, which are dynamically recalculated and displayed when user changes it.
@@ -19,7 +19,7 @@ It also contains simple GUI to modify the Perlin Noise parameters, which are dyn
 ![Terrain 1 screen](https://github.com/koszar91/trash-engine-cpp/blob/master/screenshots/terrain1.png)
 ![Terrain 2 screen](https://github.com/koszar91/trash-engine-cpp/blob/master/screenshots/terrain2.png)
 
-#Car Racing Scene
+# Car Racing Scene
 is my attempt to implement car dynamics.
 User can steer the car using WASD and Space keys.
 I've done some physics research to figure out how to implement the car dynamics.
